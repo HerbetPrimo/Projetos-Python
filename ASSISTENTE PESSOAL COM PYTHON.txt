@@ -1,0 +1,63 @@
+ASSISTENTE PESSOAL COM PYTHON
+
+Assistente Pessoal com Python
+Fala pessoal, essa é a Ana, um assistente pessoal virtual que escuta os seus comandos de voz e executa-os!
+
+Características:
+⌚ Horário atual: "Que horas são?"
+🔎 Pesquisa no Google: "Pesquisar objeto no Google"
+🪙 Cotação de dólar, euro e bitcoin: "Qual a cotação do dólar no momento?"
+📰 Últimas 5 notícias do momento: "Quais as últimas notícias?"
+📽️ 5 filmes mais populares do momento: "Quais os filmes mais populares no momento?"
+🎧 Abrir a melhor música, banda e álbum do mundo no Spotify: "Qual a melhor música do mundo?"
+⛅ Clima/tempo: "Clima em São Paulo"
+🔃 Tradutor para inglês e português: "Traduzir para o inglês"
+📒 Criar e visualizar lembretes: "Criar novo lembrete" ou "Visualizar lembretes"
+💻 Abra o programa em sua máquina: "Abrir Discord"
+💤 Desligar computador em 1 hora ou meia hora: "Desligar computador em uma hora"
+❌ Cancelar desligamento do computador: "Cancelar desligamento"
+🙋🏽‍♀️ Fechar a assistente: "Fechar assistente"
+Tecnologias utilizadas:
+Python : linguagem de programação
+Reconhecimento de fala : reconhecimento de voz
+gTTS : sintetização de voz
+Playsound : atualizador de áudio
+Beautiful Soup 4 : para leitura de páginas elementos em páginas web
+Traduzir
+Outras: os, sys, webbrowser, urllib.request, json, datetime, requests
+Como executar:
+1. Instale Pythonna sua máquina, por meio deste link
+2. Faça um clone desse repositório em sua máquina:
+Crie uma pasta no seu computador para esse programa, recomendo colocar o nome Assistente Pessoal
+Abra o git bashou terminaldentro dessa massa
+Copiar uma URL do repositório
+Digite git clone <URL copiada>e pressioneenter
+3. Instale as bibliotecas de permissão pelo terminal, dentro dessa pasta criada:
+gTTS:pip install gTTS
+tocar música:pip install playsound
+linda sopa 4:pip install beautifulsoup4
+reconhecimento de fala:pip install SpeechRecognition
+traduzir: pip install translate caso ocorra algum erro referente a alguma das bibliotecas importadas no programa, jogue o nome dela no Google e faça a instalação e passo a passo necessário
+4. Baixe a ferramenta de lembretes:
+Acesse o Notezilla e faça o download
+Utilize o caminho C:\Program Files\Conceptworld\Notezillapara instalação
+5. Crie sua chave para as APIs:
+API de filmes:
+
+Acesse o The Movie DataBase e faça seu cadastro
+Nas configurações, acesse API e crie uma nova chave
+Copie a chave e cole no tokenda função filmes(), atualizando a frase<suachaveapi>
+API de clima:
+
+Acesse o Open Wather Map e faça seu cadastro
+Confirme o e-mail recebido e nas configurações, acesse suas API Keys
+Copie a chave e cole no tokenda função clima(), atualizando a frase<suachaveapi>
+6. Preencha os caminhos dos programas na sua máquina:
+Explore os caminhos dos seguintes programas sugeridos em sua máquina: Google Chrome, Visual Studio, Visual Studio Code, Discord e Notion
+Abaixo do comentário abrir programas do computador, cole o caminho correspondente em cada chamada de função
+Exemplo:os.startfile("C:\Program Files\Google\Chrome\Application\chrome.exe")
+Caso queira adicionar ou excluir algum programa, faça isso utilizando o padrão do código
+7. Execute o programa pelo terminal:
+Digitepython assistente.py
+Estudos:
+Na pasta estudosvocê escontra alguns códigos simples, que eu utilizo para aprender sobre as ferramentas, inclusive utilizando outros como espeak e pyttsx3
